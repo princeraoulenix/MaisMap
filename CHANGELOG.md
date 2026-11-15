@@ -1,48 +1,77 @@
-# CHANGELOG
+# MaïsMap — Changelog
 
-## [0.2.0] — 2026-11-15 (develop branch)
+All notable changes to this project are documented here.
+
+---
+
+## [Final] — 2026 NASA Space Apps Submission
+
+### Added
+- Engine B: Crop Rotation Lab with 3 strategies (A/B/C), 6 priority dimensions,
+  interactive sliders, climate-fit scoring, crop calendar reference table
+- Real NASA POWER data pipeline (`src/acquisition/fetch_nasa_power.py`)
+  fetching PRECTOTCORR, T2M_MAX, T2M_MIN for 60 cells × 4 years (2020–2023)
+- ISRIC SoilGrids connector (`src/acquisition/fetch_soilgrids.py`) — null values
+  returned for Northern Cameroon, documented as known limitation
+- GeoJSON schema validator (`src/data/validator.py`)
+- NASA GIBS MODIS satellite overlay option
+- Scenario sensitivity simulator (rain ±30%, temperature ±4°C)
+- 5 Plotly historical trend charts with agronomic threshold reference lines
+- CSV export from Data tab
+- 7-slide NASA Space Apps presentation (`docs/demo/MaisMap_NASA_Space_Apps_2026.pptx`)
+- `docs/NASA_SUBMISSION.md` — complete NASA submission form text
+- `docs/AI_DISCLOSURE.md` — honest Amazon Q Developer disclosure
+- `docs/DATA_REFERENCES.md` — full data and literature references
+- `docs/PROJECT_AUDIT.md` — development audit log
 
 ### Fixed
-- **Critical:** Forward-reference bug in `app.py` — `_load_all_years` called before its definition (crashed history tab at runtime)
-- **Critical:** Dead code in `_render_scenario` — `mod_geojson` built then immediately overwritten
-- **Bug:** `rain_delta`/`temp_delta` NameError when scenario tab opened without sidebar checkbox active
-- **Bug:** `chart_risk_distribution` imported but `chart_heat_days` missing from import
-
-### Added
-- `src/data/validator.py` — full GeoJSON schema validation (required fields, risk class, coordinate bounds, duplicates, provenance)
-- `src/data/nasa_pipeline.py` — complete NASA POWER real-data pipeline with caching and rate limiting
-- `src/geospatial/grid.py` — grid generation and coverage validation utilities
-- `src/visualization/charts.py` — new `chart_heat_days` with agronomic threshold reference lines; all charts now have reference lines and consistent styling
-- `src/visualization/map.py` — NASA GIBS MODIS satellite overlay; MiniMap widget; improved popup with data-source badge; better legend
-- `app.py` — satellite overlay toggle in sidebar; validation report in Data tab; Méthodologie tab with full methodology; 6-column dashboard metrics; `show_satellite` wired to `build_map`; `_load_all_years_cached` now defined before use
-- `docs/methodology.md` — complete scientific methodology documentation
-- `docs/data_sources.md` — all NASA data sources documented with product details
-- `docs/limitations.md` — 13 documented limitations
-- `docs/jury_presentation.md` — 7-minute demo script and jury presentation guide
-- `tests/test_analysis.py` — expanded from 25 to 37 tests; added TestTrends, TestValidator, TestGeospatialGrid
+- Forward-reference bug: `_load_all_years` called before definition in app.py
+- Dead code in `_render_scenario` (undefined variables)
+- Region filter mapping inconsistency ("All" vs "Toutes")
+- Coordinate order validation in tests
 
 ### Changed
-- `app.py` — history tab now shows 5 charts (added heat days); summary statistics row added
-- `app.py` — scenario tab sliders always rendered (disabled when inactive) to prevent NameError
-- `config/settings.py` — no changes required
-- `config/thresholds.py` — no changes required
+- README completely rewritten for NASA submission
+- Test count updated from 37 to 46
+- Data loader auto-detects real vs demo data by year
+- App uses real NASA POWER data by default when available
 
-## [0.1.0] — 2026-11-15
+### Data
+- `data/processed/grid_2020.geojson` — 60 cells, real NASA POWER
+- `data/processed/grid_2021.geojson` — 60 cells, real NASA POWER
+- `data/processed/grid_2022.geojson` — 60 cells, real NASA POWER
+- `data/processed/grid_2023.geojson` — 59 cells, real NASA POWER (1 cell missing)
+- `data/demo/demo_grid.geojson` — 840 features, synthetic, 2010–2023
+- `data/derived/soil_grid.json` — SoilGrids fetch result (null values, documented)
+
+---
+
+## [Phase 2] — Bug Fixes & Scientific Validation
 
 ### Added
-- Full project structure (config, src, data, tests, docs)
-- Synthetic demo GeoJSON dataset: 840 features, 14 years, 60 cells/year
-- Onset detection (Sivakumar/AGRHYMET method)
+- GeoJSON validator with schema, coordinate bounds, duplicate detection
+- NASA GIBS satellite overlay
+- Improved map popups with data-source badges (DEMO / NASA)
+- Test suite expanded from 25 to 37 tests
+
+### Fixed
+- Critical forward-reference bug in app.py
+- NameError on scenario variables
+
+---
+
+## [Phase 1] — Initial Build
+
+### Added
+- Full project structure
+- Streamlit application with Folium map
+- Sivakumar (1988) onset detection
 - False-start detection
 - Dry-spell analysis
-- Heat-stress day counting
-- Composite risk model (LOW/MEDIUM/HIGH) with documented weights
-- Sowing advice generator
-- Historical trend aggregation
-- NASA POWER API connector with local caching
-- Folium interactive map with color-coded risk cells and popups
-- Plotly historical charts
-- Scenario simulator
-- Streamlit application with sidebar controls, 4 tabs, demo banner
-- 25 automated tests (all passing)
-- README, CHANGELOG, .gitignore, requirements.txt
+- Heat-stress counting
+- Composite risk model (LOW / MEDIUM / HIGH)
+- Sowing advice in French
+- Synthetic demo dataset (840 features, 2010–2023)
+- 25 automated tests
+- `config/settings.py` and `config/thresholds.py`
+- `docs/methodology.md`, `docs/limitations.md`, `docs/data_sources.md`

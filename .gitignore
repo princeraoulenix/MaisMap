@@ -1,10 +1,44 @@
+# Virtual environment
 .venv/
+venv/
+env/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.Python
+
+# Test cache
 .pytest_cache/
+.coverage
+htmlcov/
+
+# NASA POWER raw cache (large, reproducible via fetch_nasa_power.py)
 data/raw/cache/
 data/raw/*.json
 data/raw/*.csv
-*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Streamlit secrets
 .streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Egg info
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# NOTE: data/processed/ and data/demo/ ARE committed (real + demo GeoJSON)
+# NOTE: data/derived/soil_grid.json IS committed (documents the null-value limitation)
