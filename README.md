@@ -1,6 +1,6 @@
 # MaïsMap
 
-**Agricultural decision-support application for maize farmers in Northern Cameroon**  
+**Agricultural decision-support application for maize farmers in Northern Cameroon**
 NASA Space Apps Challenge 2026 | Team GeoWorks
 
 ---
@@ -11,13 +11,14 @@ MaïsMap is an interactive geospatial application that helps maize farmers and a
 stakeholders in Northern Cameroon identify the risk of false starts of the rainy season and
 make better-informed sowing decisions.
 
-It analyzes historical rainfall and temperature data to compute:
-- Rainy-season onset (Sivakumar/AGRHYMET method)
+It analyzes historical rainfall and temperature data (NASA POWER, 1984–present) to compute:
+
+- Rainy-season onset (Sivakumar 1988 / AGRHYMET method)
 - False starts of the rainy season
 - Consecutive dry spells during the growing season
-- Heat-stress days (Tmax > 35°C)
+- Heat-stress days (Tmax > 35°C, CIMMYT threshold)
 - A composite agricultural risk score (LOW / MEDIUM / HIGH)
-- Sowing recommendations in plain language
+- Sowing recommendations in plain French
 
 **Core question: When should farmers sow maize in Northern Cameroon?**
 
@@ -48,7 +49,7 @@ python src\data\generate_demo.py
 python -m streamlit run app.py
 ```
 
-The application opens at http://localhost:8501
+The application opens at **http://localhost:8501**
 
 ---
 
@@ -58,8 +59,21 @@ The application opens at http://localhost:8501
 python -m pytest tests\ -v
 ```
 
-25 tests covering onset detection, false-start detection, dry-spell analysis,
-heat-stress counting, risk model, and data loading.
+37 tests covering onset detection, false-start detection, dry-spell analysis,
+heat-stress counting, risk model, trends, data loading, GeoJSON validation,
+and geospatial grid coverage.
+
+---
+
+## Fetch Real NASA Data (optional, requires internet)
+
+```powershell
+python src\data\nasa_pipeline.py --year 2022
+python src\data\nasa_pipeline.py --year 2022 --year 2021 --year 2020
+```
+
+Results are saved to `data/processed/grid_{year}.geojson` and cached in `data/raw/cache/`.
+Set `use_demo = False` in `app.py` to switch to real data.
 
 ---
 
@@ -67,78 +81,111 @@ heat-stress counting, risk model, and data loading.
 
 ```
 MaisMap/
-├── app.py                    # Main Streamlit application
+├── app.py                        # Main Streamlit application
 ├── requirements.txt
+├── CHANGELOG.md
 ├── config/
-│   ├── settings.py           # Paths, map defaults
-│   └── thresholds.py         # Agronomic thresholds (documented)
+│   ├── settings.py               # Paths, map defaults, study area
+│   └── thresholds.py             # Agronomic thresholds (documented)
 ├── data/
-│   ├── demo/                 # Synthetic demonstration dataset
-│   ├── processed/            # Real processed data (when available)
-│   └── raw/                  # Raw NASA downloads + cache
+│   ├── demo/demo_grid.geojson    # Synthetic demonstration dataset
+│   ├── processed/                # Real NASA data (grid_{year}.geojson)
+│   └── raw/cache/                # NASA POWER API cache
 ├── src/
 │   ├── analysis/
-│   │   ├── onset.py          # Sivakumar onset detection
-│   │   ├── false_start.py    # False-start detection
-│   │   ├── dry_spell.py      # Dry-spell analysis
-│   │   ├── heat_stress.py    # Heat-day counting
-│   │   ├── risk_model.py     # Risk score + sowing advice
-│   │   └── trends.py         # Historical trend aggregation
+│   │   ├── onset.py              # Sivakumar onset detection
+│   │   ├── false_start.py        # False-start detection
+│   │   ├── dry_spell.py          # Dry-spell analysis
+│   │   ├── heat_stress.py        # Heat-day counting
+│   │   ├── risk_model.py         # Risk score + sowing advice
+│   │   └── trends.py             # Historical trend aggregation
 │   ├── data/
-│   │   ├── nasa_power.py     # NASA POWER API connector
-│   │   ├── data_loader.py    # GeoJSON loader (demo + real)
-│   │   └── generate_demo.py  # Synthetic dataset generator
+│   │   ├── nasa_power.py         # NASA POWER API connector
+│   │   ├── nasa_pipeline.py      # Full real-data pipeline
+│   │   ├── data_loader.py        # GeoJSON loader (demo + real)
+│   │   ├── validator.py          # GeoJSON schema validation
+│   │   └── generate_demo.py      # Synthetic dataset generator
+│   ├── geospatial/
+│   │   └── grid.py               # Grid generation + coverage validation
 │   └── visualization/
-│       ├── map.py            # Folium map builder
-│       └── charts.py         # Plotly historical charts
+│       ├── map.py                # Folium map + NASA GIBS overlay
+│       └── charts.py             # Plotly historical charts
 ├── tests/
-│   └── test_analysis.py      # 25 automated tests
+│   └── test_analysis.py          # 37 automated tests
 └── docs/
-    ├── methodology.md
-    ├── data_sources.md
-    └── limitations.md
+    ├── methodology.md            # Scientific methodology
+    ├── data_sources.md           # NASA data source documentation
+    ├── limitations.md            # Known limitations
+    └── jury_presentation.md      # Demo script + jury guide
 ```
+
+---
+
+## Application Features
+
+| Feature | Status |
+|---|---|
+| Interactive risk map (Folium) | Done |
+| Color-coded grid cells | Done |
+| Cell popups with all indicators | Done |
+| Year selector | Done |
+| Region filter | Done |
+| Risk-class filter | Done |
+| NASA GIBS satellite overlay | Done |
+| Historical trend charts (5 charts) | Done |
+| Scenario sensitivity simulator | Done |
+| GeoJSON validation report | Done |
+| Methodology tab | Done |
+| CSV export | Done |
+| Demo data banner | Done |
+| Real NASA POWER pipeline | Done |
+| 37 automated tests | Done |
 
 ---
 
 ## Data Sources
 
-| Source | Variable | Resolution | Period |
-|--------|----------|------------|--------|
-| NASA POWER | Precipitation, Tmax, Tmin | 0.5° (~55 km) | 1984–present |
-| NASA GPM IMERG | Precipitation | 0.1° (~11 km) | 2000–present |
-| NASA SMAP | Surface soil moisture | 36 km | 2015–present |
+| Source | Variable | Resolution | Period | Role |
+|---|---|---|---|---|
+| NASA POWER | Precipitation, Tmax | 0.5° (~55 km) | 1984–present | Primary analysis |
+| NASA GPM IMERG | Precipitation | 0.1° (~11 km) | 2000–present | Validation (connector ready) |
+| NASA SMAP | Surface soil moisture | 36 km | 2015–present | Supplementary (documented) |
+| NASA GIBS | MODIS True Color | Variable | Daily | Visualization overlay |
 
 The current demo dataset is **synthetic** and clearly labeled as such.
-Real NASA data can be fetched using `src/data/nasa_power.py`.
 
 ---
 
 ## Agronomic Methodology
 
-**Onset detection:** Sivakumar (1988) / AGRHYMET method  
-- Trigger: ≥ 20 mm over 3 consecutive days after April 1  
-- Validation: no dry spell ≥ 7 days in the following 30 days
+**Onset detection:** Sivakumar (1988) / AGRHYMET method
+- Trigger: >= 20 mm over 3 consecutive days after April 1
+- Validation: no dry spell >= 7 days in the following 30 days
 
-**False start:** Trigger followed by ≥ 10 consecutive dry days within 30 days
+**False start:** Trigger followed by >= 10 consecutive dry days within 30 days
 
 **Heat stress threshold:** Tmax > 35°C (pollen viability threshold, CIMMYT)
 
-**Risk weights:** False start 40% · Dry spell 35% · Heat stress 25%  
-(documented in `config/thresholds.py`)
+**Risk weights:** False start 40% · Dry spell 35% · Heat stress 25%
+(documented in `config/thresholds.py`, provisional pending agronomic validation)
+
+See `docs/methodology.md` for full details.
 
 ---
 
 ## Limitations
 
-- The demo dataset is synthetic. Results do not represent real conditions.
-- The 0.5° grid (~55 km) cannot capture local microclimatic variation.
-- The risk model uses provisional weights pending agronomic validation.
-- This tool does not replace local agricultural extension services.
+- Demo dataset is synthetic — no operational value
+- 0.5° resolution (~55 km) cannot capture local microclimatic variation
+- Risk weights are provisional and not validated against yield data
+- No seasonal forecast capability — historical analysis only
+- Recommendations must be confirmed with local agricultural extension services
+
+See `docs/limitations.md` for the complete list.
 
 ---
 
 ## Team
 
-**GeoWorks** — NASA Space Apps Challenge 2026  
+**GeoWorks** — NASA Space Apps Challenge 2026
 Challenge: *Field Shift: Adapting Farms with NASA Data*
