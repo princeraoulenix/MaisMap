@@ -1,0 +1,422 @@
+{
+  "7.75_13.25": {
+    "lat": 7.75,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "7.75_13.75": {
+    "lat": 7.75,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "7.75_14.25": {
+    "lat": 7.75,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "7.75_14.75": {
+    "lat": 7.75,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "7.75_15.25": {
+    "lat": 7.75,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "7.75_15.75": {
+    "lat": 7.75,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.25_13.25": {
+    "lat": 8.25,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.25_13.75": {
+    "lat": 8.25,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.25_14.25": {
+    "lat": 8.25,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.25_14.75": {
+    "lat": 8.25,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.25_15.25": {
+    "lat": 8.25,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.25_15.75": {
+    "lat": 8.25,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.75_13.25": {
+    "lat": 8.75,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.75_13.75": {
+    "lat": 8.75,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.75_14.25": {
+    "lat": 8.75,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.75_14.75": {
+    "lat": 8.75,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.75_15.25": {
+    "lat": 8.75,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "8.75_15.75": {
+    "lat": 8.75,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.25_13.25": {
+    "lat": 9.25,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.25_13.75": {
+    "lat": 9.25,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.25_14.25": {
+    "lat": 9.25,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.25_14.75": {
+    "lat": 9.25,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.25_15.25": {
+    "lat": 9.25,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.25_15.75": {
+    "lat": 9.25,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.75_13.25": {
+    "lat": 9.75,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.75_13.75": {
+    "lat": 9.75,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.75_14.25": {
+    "lat": 9.75,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.75_14.75": {
+    "lat": 9.75,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.75_15.25": {
+    "lat": 9.75,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "9.75_15.75": {
+    "lat": 9.75,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.25_13.25": {
+    "lat": 10.25,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.25_13.75": {
+    "lat": 10.25,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.25_14.25": {
+    "lat": 10.25,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.25_14.75": {
+    "lat": 10.25,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.25_15.25": {
+    "lat": 10.25,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.25_15.75": {
+    "lat": 10.25,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.75_13.25": {
+    "lat": 10.75,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.75_13.75": {
+    "lat": 10.75,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.75_14.25": {
+    "lat": 10.75,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.75_14.75": {
+    "lat": 10.75,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.75_15.25": {
+    "lat": 10.75,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "10.75_15.75": {
+    "lat": 10.75,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.25_13.25": {
+    "lat": 11.25,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.25_13.75": {
+    "lat": 11.25,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.25_14.25": {
+    "lat": 11.25,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.25_14.75": {
+    "lat": 11.25,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.25_15.25": {
+    "lat": 11.25,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.25_15.75": {
+    "lat": 11.25,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.75_13.25": {
+    "lat": 11.75,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.75_13.75": {
+    "lat": 11.75,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.75_14.25": {
+    "lat": 11.75,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.75_14.75": {
+    "lat": 11.75,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.75_15.25": {
+    "lat": 11.75,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "11.75_15.75": {
+    "lat": 11.75,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "12.25_13.25": {
+    "lat": 12.25,
+    "lon": 13.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "12.25_13.75": {
+    "lat": 12.25,
+    "lon": 13.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "12.25_14.25": {
+    "lat": 12.25,
+    "lon": 14.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "12.25_14.75": {
+    "lat": 12.25,
+    "lon": 14.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "12.25_15.25": {
+    "lat": 12.25,
+    "lon": 15.25,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  },
+  "12.25_15.75": {
+    "lat": 12.25,
+    "lon": 15.75,
+    "source": "ISRIC SoilGrids v2.0",
+    "depth": "0-5cm",
+    "crs": "EPSG:4326"
+  }
+}

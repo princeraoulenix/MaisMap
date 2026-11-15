@@ -1,0 +1,3070 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source": "NASA POWER v9",
+    "year": 2022,
+    "crs": "EPSG:4326"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              7.5
+            ],
+            [
+              13.5,
+              7.5
+            ],
+            [
+              13.5,
+              8.0
+            ],
+            [
+              13.0,
+              8.0
+            ],
+            [
+              13.0,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0001",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 109,
+        "season_onset_date_str": "2022-04-19",
+        "false_start": false,
+        "dry_spell_days": 1,
+        "heat_days": 0,
+        "risk_score": 2.1,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 109 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 1189.8,
+        "mean_tmax_c": 28.8,
+        "mean_tmin_c": 21.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              7.5
+            ],
+            [
+              14.0,
+              7.5
+            ],
+            [
+              14.0,
+              8.0
+            ],
+            [
+              13.5,
+              8.0
+            ],
+            [
+              13.5,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0002",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 114,
+        "season_onset_date_str": "2022-04-24",
+        "false_start": false,
+        "dry_spell_days": 2,
+        "heat_days": 2,
+        "risk_score": 7.2,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 114 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 1002.4,
+        "mean_tmax_c": 29.2,
+        "mean_tmin_c": 21.0,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              7.5
+            ],
+            [
+              14.5,
+              7.5
+            ],
+            [
+              14.5,
+              8.0
+            ],
+            [
+              14.0,
+              8.0
+            ],
+            [
+              14.0,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0003",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 0,
+        "risk_score": 6.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 1077.8,
+        "mean_tmax_c": 28.6,
+        "mean_tmin_c": 20.7,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              7.5
+            ],
+            [
+              15.0,
+              7.5
+            ],
+            [
+              15.0,
+              8.0
+            ],
+            [
+              14.5,
+              8.0
+            ],
+            [
+              14.5,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0004",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 2,
+        "risk_score": 9.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 1013.7,
+        "mean_tmax_c": 29.0,
+        "mean_tmin_c": 21.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              7.5
+            ],
+            [
+              15.5,
+              7.5
+            ],
+            [
+              15.5,
+              8.0
+            ],
+            [
+              15.0,
+              8.0
+            ],
+            [
+              15.0,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0005",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 2,
+        "risk_score": 9.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 1013.7,
+        "mean_tmax_c": 29.0,
+        "mean_tmin_c": 21.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              7.5
+            ],
+            [
+              16.0,
+              7.5
+            ],
+            [
+              16.0,
+              8.0
+            ],
+            [
+              15.5,
+              8.0
+            ],
+            [
+              15.5,
+              7.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0006",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 2,
+        "risk_score": 9.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 1002.4,
+        "mean_tmax_c": 29.4,
+        "mean_tmin_c": 21.4,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              8.0
+            ],
+            [
+              13.5,
+              8.0
+            ],
+            [
+              13.5,
+              8.5
+            ],
+            [
+              13.0,
+              8.5
+            ],
+            [
+              13.0,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0007",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 98,
+        "season_onset_date_str": "2022-04-08",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 9,
+        "risk_score": 19.8,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 98 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 856.2,
+        "mean_tmax_c": 30.7,
+        "mean_tmin_c": 22.7,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              8.0
+            ],
+            [
+              14.0,
+              8.0
+            ],
+            [
+              14.0,
+              8.5
+            ],
+            [
+              13.5,
+              8.5
+            ],
+            [
+              13.5,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0008",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 109,
+        "season_onset_date_str": "2022-04-19",
+        "false_start": false,
+        "dry_spell_days": 5,
+        "heat_days": 11,
+        "risk_score": 25.5,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 109 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 782.0,
+        "mean_tmax_c": 31.4,
+        "mean_tmin_c": 23.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              8.0
+            ],
+            [
+              14.5,
+              8.0
+            ],
+            [
+              14.5,
+              8.5
+            ],
+            [
+              14.0,
+              8.5
+            ],
+            [
+              14.0,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0009",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 13,
+        "risk_score": 21.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 950.2,
+        "mean_tmax_c": 30.6,
+        "mean_tmin_c": 22.8,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              8.0
+            ],
+            [
+              15.0,
+              8.0
+            ],
+            [
+              15.0,
+              8.5
+            ],
+            [
+              14.5,
+              8.5
+            ],
+            [
+              14.5,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0010",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 5,
+        "risk_score": 13.8,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 929.3,
+        "mean_tmax_c": 29.7,
+        "mean_tmin_c": 21.8,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              8.0
+            ],
+            [
+              15.5,
+              8.0
+            ],
+            [
+              15.5,
+              8.5
+            ],
+            [
+              15.0,
+              8.5
+            ],
+            [
+              15.0,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0011",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 5,
+        "risk_score": 13.8,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 929.3,
+        "mean_tmax_c": 29.7,
+        "mean_tmin_c": 21.8,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              8.0
+            ],
+            [
+              16.0,
+              8.0
+            ],
+            [
+              16.0,
+              8.5
+            ],
+            [
+              15.5,
+              8.5
+            ],
+            [
+              15.5,
+              8.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0012",
+        "region": "Adamaoua",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 2,
+        "risk_score": 9.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 979.8,
+        "mean_tmax_c": 29.4,
+        "mean_tmin_c": 21.7,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              8.5
+            ],
+            [
+              13.5,
+              8.5
+            ],
+            [
+              13.5,
+              9.0
+            ],
+            [
+              13.0,
+              9.0
+            ],
+            [
+              13.0,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0013",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 100,
+        "season_onset_date_str": "2022-04-10",
+        "false_start": false,
+        "dry_spell_days": 4,
+        "heat_days": 12,
+        "risk_score": 23.4,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 100 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 720.1,
+        "mean_tmax_c": 31.6,
+        "mean_tmin_c": 23.5,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              8.5
+            ],
+            [
+              14.0,
+              8.5
+            ],
+            [
+              14.0,
+              9.0
+            ],
+            [
+              13.5,
+              9.0
+            ],
+            [
+              13.5,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0014",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 100,
+        "season_onset_date_str": "2022-04-10",
+        "false_start": false,
+        "dry_spell_days": 5,
+        "heat_days": 21,
+        "risk_score": 35.5,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 630.2,
+        "mean_tmax_c": 32.5,
+        "mean_tmin_c": 24.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              8.5
+            ],
+            [
+              14.5,
+              8.5
+            ],
+            [
+              14.5,
+              9.0
+            ],
+            [
+              14.0,
+              9.0
+            ],
+            [
+              14.0,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0015",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 132,
+        "season_onset_date_str": "2022-05-12",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 13,
+        "risk_score": 21.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 132 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 943.4,
+        "mean_tmax_c": 30.4,
+        "mean_tmin_c": 22.9,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              8.5
+            ],
+            [
+              15.0,
+              8.5
+            ],
+            [
+              15.0,
+              9.0
+            ],
+            [
+              14.5,
+              9.0
+            ],
+            [
+              14.5,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0016",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 132,
+        "season_onset_date_str": "2022-05-12",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 11,
+        "risk_score": 21.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 132 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 931.8,
+        "mean_tmax_c": 30.1,
+        "mean_tmin_c": 22.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              8.5
+            ],
+            [
+              15.5,
+              8.5
+            ],
+            [
+              15.5,
+              9.0
+            ],
+            [
+              15.0,
+              9.0
+            ],
+            [
+              15.0,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0017",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 132,
+        "season_onset_date_str": "2022-05-12",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 11,
+        "risk_score": 21.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 132 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 931.8,
+        "mean_tmax_c": 30.1,
+        "mean_tmin_c": 22.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              8.5
+            ],
+            [
+              16.0,
+              8.5
+            ],
+            [
+              16.0,
+              9.0
+            ],
+            [
+              15.5,
+              9.0
+            ],
+            [
+              15.5,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0018",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 129,
+        "season_onset_date_str": "2022-05-09",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 5,
+        "risk_score": 13.8,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 129 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 972.6,
+        "mean_tmax_c": 30.1,
+        "mean_tmin_c": 22.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              9.0
+            ],
+            [
+              13.5,
+              9.0
+            ],
+            [
+              13.5,
+              9.5
+            ],
+            [
+              13.0,
+              9.5
+            ],
+            [
+              13.0,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0019",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 109,
+        "season_onset_date_str": "2022-04-19",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 15,
+        "risk_score": 21.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 109 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 697.4,
+        "mean_tmax_c": 31.5,
+        "mean_tmin_c": 23.4,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              9.0
+            ],
+            [
+              14.0,
+              9.0
+            ],
+            [
+              14.0,
+              9.5
+            ],
+            [
+              13.5,
+              9.5
+            ],
+            [
+              13.5,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0020",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 1,
+        "risk_score": 7.8,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 166 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 968.2,
+        "mean_tmax_c": 29.1,
+        "mean_tmin_c": 22.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              9.0
+            ],
+            [
+              14.5,
+              9.0
+            ],
+            [
+              14.5,
+              9.5
+            ],
+            [
+              14.0,
+              9.5
+            ],
+            [
+              14.0,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0021",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 124,
+        "season_onset_date_str": "2022-05-04",
+        "false_start": false,
+        "dry_spell_days": 6,
+        "heat_days": 13,
+        "risk_score": 27.6,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 124 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 736.0,
+        "mean_tmax_c": 30.9,
+        "mean_tmin_c": 22.9,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              9.0
+            ],
+            [
+              15.0,
+              9.0
+            ],
+            [
+              15.0,
+              9.5
+            ],
+            [
+              14.5,
+              9.5
+            ],
+            [
+              14.5,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0022",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 132,
+        "season_onset_date_str": "2022-05-12",
+        "false_start": false,
+        "dry_spell_days": 6,
+        "heat_days": 13,
+        "risk_score": 27.6,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 132 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 908.7,
+        "mean_tmax_c": 30.5,
+        "mean_tmin_c": 22.5,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              9.0
+            ],
+            [
+              15.5,
+              9.0
+            ],
+            [
+              15.5,
+              9.5
+            ],
+            [
+              15.0,
+              9.5
+            ],
+            [
+              15.0,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0023",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 132,
+        "season_onset_date_str": "2022-05-12",
+        "false_start": false,
+        "dry_spell_days": 6,
+        "heat_days": 13,
+        "risk_score": 27.6,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 132 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 908.7,
+        "mean_tmax_c": 30.5,
+        "mean_tmin_c": 22.5,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              9.0
+            ],
+            [
+              16.0,
+              9.0
+            ],
+            [
+              16.0,
+              9.5
+            ],
+            [
+              15.5,
+              9.5
+            ],
+            [
+              15.5,
+              9.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0024",
+        "region": "Nord",
+        "department": "Faro",
+        "year": 2022,
+        "season_onset_date": 124,
+        "season_onset_date_str": "2022-05-04",
+        "false_start": false,
+        "dry_spell_days": 5,
+        "heat_days": 15,
+        "risk_score": 25.5,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 124 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 859.1,
+        "mean_tmax_c": 31.0,
+        "mean_tmin_c": 22.8,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              9.5
+            ],
+            [
+              13.5,
+              9.5
+            ],
+            [
+              13.5,
+              10.0
+            ],
+            [
+              13.0,
+              10.0
+            ],
+            [
+              13.0,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0025",
+        "region": "Nord",
+        "department": "Mayo-Rey",
+        "year": 2022,
+        "season_onset_date": 93,
+        "season_onset_date_str": "2022-04-03",
+        "false_start": false,
+        "dry_spell_days": 6,
+        "heat_days": 16,
+        "risk_score": 27.6,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 93 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 783.0,
+        "mean_tmax_c": 31.1,
+        "mean_tmin_c": 22.5,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              9.5
+            ],
+            [
+              14.0,
+              9.5
+            ],
+            [
+              14.0,
+              10.0
+            ],
+            [
+              13.5,
+              10.0
+            ],
+            [
+              13.5,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0026",
+        "region": "Nord",
+        "department": "Mayo-Rey",
+        "year": 2022,
+        "season_onset_date": 154,
+        "season_onset_date_str": "2022-06-03",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 4,
+        "risk_score": 12.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 154 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 942.3,
+        "mean_tmax_c": 29.4,
+        "mean_tmin_c": 21.8,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              9.5
+            ],
+            [
+              14.5,
+              9.5
+            ],
+            [
+              14.5,
+              10.0
+            ],
+            [
+              14.0,
+              10.0
+            ],
+            [
+              14.0,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0027",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": false,
+        "dry_spell_days": 4,
+        "heat_days": 2,
+        "risk_score": 11.4,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 166 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 912.5,
+        "mean_tmax_c": 29.6,
+        "mean_tmin_c": 22.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              9.5
+            ],
+            [
+              15.0,
+              9.5
+            ],
+            [
+              15.0,
+              10.0
+            ],
+            [
+              14.5,
+              10.0
+            ],
+            [
+              14.5,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0028",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": false,
+        "dry_spell_days": 4,
+        "heat_days": 2,
+        "risk_score": 11.4,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 166 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 936.8,
+        "mean_tmax_c": 29.7,
+        "mean_tmin_c": 22.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              9.5
+            ],
+            [
+              15.5,
+              9.5
+            ],
+            [
+              15.5,
+              10.0
+            ],
+            [
+              15.0,
+              10.0
+            ],
+            [
+              15.0,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0029",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": false,
+        "dry_spell_days": 4,
+        "heat_days": 2,
+        "risk_score": 11.4,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 166 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 936.8,
+        "mean_tmax_c": 29.7,
+        "mean_tmin_c": 22.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              9.5
+            ],
+            [
+              16.0,
+              9.5
+            ],
+            [
+              16.0,
+              10.0
+            ],
+            [
+              15.5,
+              10.0
+            ],
+            [
+              15.5,
+              9.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0030",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 124,
+        "season_onset_date_str": "2022-05-04",
+        "false_start": false,
+        "dry_spell_days": 5,
+        "heat_days": 20,
+        "risk_score": 35.5,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 827.9,
+        "mean_tmax_c": 31.6,
+        "mean_tmin_c": 23.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              10.0
+            ],
+            [
+              13.5,
+              10.0
+            ],
+            [
+              13.5,
+              10.5
+            ],
+            [
+              13.0,
+              10.5
+            ],
+            [
+              13.0,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0031",
+        "region": "Nord",
+        "department": "Mayo-Rey",
+        "year": 2022,
+        "season_onset_date": 115,
+        "season_onset_date_str": "2022-04-25",
+        "false_start": false,
+        "dry_spell_days": 6,
+        "heat_days": 2,
+        "risk_score": 15.6,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 115 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 811.5,
+        "mean_tmax_c": 29.9,
+        "mean_tmin_c": 21.8,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              10.0
+            ],
+            [
+              14.0,
+              10.0
+            ],
+            [
+              14.0,
+              10.5
+            ],
+            [
+              13.5,
+              10.5
+            ],
+            [
+              13.5,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0032",
+        "region": "Nord",
+        "department": "Mayo-Rey",
+        "year": 2022,
+        "season_onset_date": 154,
+        "season_onset_date_str": "2022-06-03",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 9,
+        "risk_score": 19.8,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 154 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 823.6,
+        "mean_tmax_c": 29.6,
+        "mean_tmin_c": 21.4,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              10.0
+            ],
+            [
+              14.5,
+              10.0
+            ],
+            [
+              14.5,
+              10.5
+            ],
+            [
+              14.0,
+              10.5
+            ],
+            [
+              14.0,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0033",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": true,
+        "dry_spell_days": 5,
+        "heat_days": 12,
+        "risk_score": 65.5,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 753.4,
+        "mean_tmax_c": 30.5,
+        "mean_tmin_c": 22.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              10.0
+            ],
+            [
+              15.0,
+              10.0
+            ],
+            [
+              15.0,
+              10.5
+            ],
+            [
+              14.5,
+              10.5
+            ],
+            [
+              14.5,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0034",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": true,
+        "dry_spell_days": 5,
+        "heat_days": 11,
+        "risk_score": 65.5,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 746.9,
+        "mean_tmax_c": 30.8,
+        "mean_tmin_c": 22.7,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              10.0
+            ],
+            [
+              15.5,
+              10.0
+            ],
+            [
+              15.5,
+              10.5
+            ],
+            [
+              15.0,
+              10.5
+            ],
+            [
+              15.0,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0035",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": true,
+        "dry_spell_days": 5,
+        "heat_days": 11,
+        "risk_score": 65.5,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 746.9,
+        "mean_tmax_c": 30.8,
+        "mean_tmin_c": 22.7,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              10.0
+            ],
+            [
+              16.0,
+              10.0
+            ],
+            [
+              16.0,
+              10.5
+            ],
+            [
+              15.5,
+              10.5
+            ],
+            [
+              15.5,
+              10.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0036",
+        "region": "Nord",
+        "department": "Benoue",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": true,
+        "dry_spell_days": 4,
+        "heat_days": 5,
+        "risk_score": 55.9,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 859.7,
+        "mean_tmax_c": 30.3,
+        "mean_tmin_c": 22.6,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              10.5
+            ],
+            [
+              13.5,
+              10.5
+            ],
+            [
+              13.5,
+              11.0
+            ],
+            [
+              13.0,
+              11.0
+            ],
+            [
+              13.0,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0037",
+        "region": "Extreme-Nord",
+        "department": "Diamare",
+        "year": 2022,
+        "season_onset_date": 116,
+        "season_onset_date_str": "2022-04-26",
+        "false_start": false,
+        "dry_spell_days": 10,
+        "heat_days": 34,
+        "risk_score": 46.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 572.2,
+        "mean_tmax_c": 32.5,
+        "mean_tmin_c": 22.9,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              10.5
+            ],
+            [
+              14.0,
+              10.5
+            ],
+            [
+              14.0,
+              11.0
+            ],
+            [
+              13.5,
+              11.0
+            ],
+            [
+              13.5,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0038",
+        "region": "Extreme-Nord",
+        "department": "Diamare",
+        "year": 2022,
+        "season_onset_date": 189,
+        "season_onset_date_str": "2022-07-08",
+        "false_start": false,
+        "dry_spell_days": 36,
+        "heat_days": 4,
+        "risk_score": 41.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 573.0,
+        "mean_tmax_c": 30.5,
+        "mean_tmin_c": 21.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              10.5
+            ],
+            [
+              14.5,
+              10.5
+            ],
+            [
+              14.5,
+              11.0
+            ],
+            [
+              14.0,
+              11.0
+            ],
+            [
+              14.0,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0039",
+        "region": "Extreme-Nord",
+        "department": "Diamare",
+        "year": 2022,
+        "season_onset_date": 194,
+        "season_onset_date_str": "2022-07-13",
+        "false_start": false,
+        "dry_spell_days": 34,
+        "heat_days": 16,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 559.7,
+        "mean_tmax_c": 31.5,
+        "mean_tmin_c": 21.9,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              10.5
+            ],
+            [
+              15.0,
+              10.5
+            ],
+            [
+              15.0,
+              11.0
+            ],
+            [
+              14.5,
+              11.0
+            ],
+            [
+              14.5,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0040",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Kani",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": true,
+        "dry_spell_days": 6,
+        "heat_days": 20,
+        "risk_score": 77.6,
+        "risk_class": "HIGH",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 598.9,
+        "mean_tmax_c": 31.7,
+        "mean_tmin_c": 23.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              10.5
+            ],
+            [
+              15.5,
+              10.5
+            ],
+            [
+              15.5,
+              11.0
+            ],
+            [
+              15.0,
+              11.0
+            ],
+            [
+              15.0,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0041",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Kani",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": true,
+        "dry_spell_days": 6,
+        "heat_days": 20,
+        "risk_score": 77.6,
+        "risk_class": "HIGH",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 598.9,
+        "mean_tmax_c": 31.7,
+        "mean_tmin_c": 23.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              10.5
+            ],
+            [
+              16.0,
+              10.5
+            ],
+            [
+              16.0,
+              11.0
+            ],
+            [
+              15.5,
+              11.0
+            ],
+            [
+              15.5,
+              10.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0042",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Kani",
+        "year": 2022,
+        "season_onset_date": 166,
+        "season_onset_date_str": "2022-06-15",
+        "false_start": true,
+        "dry_spell_days": 5,
+        "heat_days": 13,
+        "risk_score": 65.5,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 732.4,
+        "mean_tmax_c": 31.0,
+        "mean_tmin_c": 23.0,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              11.0
+            ],
+            [
+              13.5,
+              11.0
+            ],
+            [
+              13.5,
+              11.5
+            ],
+            [
+              13.0,
+              11.5
+            ],
+            [
+              13.0,
+              11.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0043",
+        "region": "Extreme-Nord",
+        "department": "Diamare",
+        "year": 2022,
+        "season_onset_date": 155,
+        "season_onset_date_str": "2022-06-04",
+        "false_start": false,
+        "dry_spell_days": 3,
+        "heat_days": 22,
+        "risk_score": 31.3,
+        "risk_class": "LOW",
+        "sowing_advice": "Conditions favorables détectées. Semis possible autour du jour 155 (DOJ). Confirmer avec les prévisions locales.",
+        "seasonal_rain_mm": 511.7,
+        "mean_tmax_c": 32.4,
+        "mean_tmin_c": 23.0,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              11.0
+            ],
+            [
+              14.0,
+              11.0
+            ],
+            [
+              14.0,
+              11.5
+            ],
+            [
+              13.5,
+              11.5
+            ],
+            [
+              13.5,
+              11.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0044",
+        "region": "Extreme-Nord",
+        "department": "Diamare",
+        "year": 2022,
+        "season_onset_date": 194,
+        "season_onset_date_str": "2022-07-13",
+        "false_start": false,
+        "dry_spell_days": 43,
+        "heat_days": 36,
+        "risk_score": 60.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 412.0,
+        "mean_tmax_c": 32.9,
+        "mean_tmin_c": 22.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              11.0
+            ],
+            [
+              14.5,
+              11.0
+            ],
+            [
+              14.5,
+              11.5
+            ],
+            [
+              14.0,
+              11.5
+            ],
+            [
+              14.0,
+              11.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0045",
+        "region": "Extreme-Nord",
+        "department": "Diamare",
+        "year": 2022,
+        "season_onset_date": 194,
+        "season_onset_date_str": "2022-07-13",
+        "false_start": false,
+        "dry_spell_days": 34,
+        "heat_days": 33,
+        "risk_score": 60.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 485.8,
+        "mean_tmax_c": 32.4,
+        "mean_tmin_c": 22.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              11.0
+            ],
+            [
+              15.0,
+              11.0
+            ],
+            [
+              15.0,
+              11.5
+            ],
+            [
+              14.5,
+              11.5
+            ],
+            [
+              14.5,
+              11.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0046",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Kani",
+        "year": 2022,
+        "season_onset_date": 194,
+        "season_onset_date_str": "2022-07-13",
+        "false_start": false,
+        "dry_spell_days": 34,
+        "heat_days": 26,
+        "risk_score": 60.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 476.5,
+        "mean_tmax_c": 32.1,
+        "mean_tmin_c": 22.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              11.0
+            ],
+            [
+              15.5,
+              11.0
+            ],
+            [
+              15.5,
+              11.5
+            ],
+            [
+              15.0,
+              11.5
+            ],
+            [
+              15.0,
+              11.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0047",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Kani",
+        "year": 2022,
+        "season_onset_date": 194,
+        "season_onset_date_str": "2022-07-13",
+        "false_start": false,
+        "dry_spell_days": 34,
+        "heat_days": 26,
+        "risk_score": 60.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 476.5,
+        "mean_tmax_c": 32.1,
+        "mean_tmin_c": 22.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              11.0
+            ],
+            [
+              16.0,
+              11.0
+            ],
+            [
+              16.0,
+              11.5
+            ],
+            [
+              15.5,
+              11.5
+            ],
+            [
+              15.5,
+              11.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0048",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Kani",
+        "year": 2022,
+        "season_onset_date": 167,
+        "season_onset_date_str": "2022-06-16",
+        "false_start": true,
+        "dry_spell_days": 5,
+        "heat_days": 18,
+        "risk_score": 65.5,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 665.0,
+        "mean_tmax_c": 31.6,
+        "mean_tmin_c": 23.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              11.5
+            ],
+            [
+              13.5,
+              11.5
+            ],
+            [
+              13.5,
+              12.0
+            ],
+            [
+              13.0,
+              12.0
+            ],
+            [
+              13.0,
+              11.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0049",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Sava",
+        "year": 2022,
+        "season_onset_date": 195,
+        "season_onset_date_str": "2022-07-14",
+        "false_start": false,
+        "dry_spell_days": 44,
+        "heat_days": 32,
+        "risk_score": 60.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 383.4,
+        "mean_tmax_c": 32.9,
+        "mean_tmin_c": 22.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              11.5
+            ],
+            [
+              14.0,
+              11.5
+            ],
+            [
+              14.0,
+              12.0
+            ],
+            [
+              13.5,
+              12.0
+            ],
+            [
+              13.5,
+              11.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0050",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Sava",
+        "year": 2022,
+        "season_onset_date": 175,
+        "season_onset_date_str": "2022-06-24",
+        "false_start": false,
+        "dry_spell_days": 17,
+        "heat_days": 37,
+        "risk_score": 60.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 454.8,
+        "mean_tmax_c": 33.2,
+        "mean_tmin_c": 23.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              11.5
+            ],
+            [
+              14.5,
+              11.5
+            ],
+            [
+              14.5,
+              12.0
+            ],
+            [
+              14.0,
+              12.0
+            ],
+            [
+              14.0,
+              11.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0051",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Sava",
+        "year": 2022,
+        "season_onset_date": 194,
+        "season_onset_date_str": "2022-07-13",
+        "false_start": false,
+        "dry_spell_days": 34,
+        "heat_days": 25,
+        "risk_score": 60.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 486.8,
+        "mean_tmax_c": 32.3,
+        "mean_tmin_c": 22.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              11.5
+            ],
+            [
+              15.0,
+              11.5
+            ],
+            [
+              15.0,
+              12.0
+            ],
+            [
+              14.5,
+              12.0
+            ],
+            [
+              14.5,
+              11.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0052",
+        "region": "Extreme-Nord",
+        "department": "Logone-et-Chari",
+        "year": 2022,
+        "season_onset_date": 175,
+        "season_onset_date_str": "2022-06-24",
+        "false_start": false,
+        "dry_spell_days": 15,
+        "heat_days": 16,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 570.3,
+        "mean_tmax_c": 32.1,
+        "mean_tmin_c": 23.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              11.5
+            ],
+            [
+              15.5,
+              11.5
+            ],
+            [
+              15.5,
+              12.0
+            ],
+            [
+              15.0,
+              12.0
+            ],
+            [
+              15.0,
+              11.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0053",
+        "region": "Extreme-Nord",
+        "department": "Logone-et-Chari",
+        "year": 2022,
+        "season_onset_date": 175,
+        "season_onset_date_str": "2022-06-24",
+        "false_start": false,
+        "dry_spell_days": 15,
+        "heat_days": 16,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 570.3,
+        "mean_tmax_c": 32.1,
+        "mean_tmin_c": 23.1,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              11.5
+            ],
+            [
+              16.0,
+              11.5
+            ],
+            [
+              16.0,
+              12.0
+            ],
+            [
+              15.5,
+              12.0
+            ],
+            [
+              15.5,
+              11.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0054",
+        "region": "Extreme-Nord",
+        "department": "Logone-et-Chari",
+        "year": 2022,
+        "season_onset_date": 163,
+        "season_onset_date_str": "2022-06-12",
+        "false_start": true,
+        "dry_spell_days": 6,
+        "heat_days": 21,
+        "risk_score": 77.6,
+        "risk_class": "HIGH",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 691.2,
+        "mean_tmax_c": 32.0,
+        "mean_tmin_c": 23.5,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.0,
+              12.0
+            ],
+            [
+              13.5,
+              12.0
+            ],
+            [
+              13.5,
+              12.5
+            ],
+            [
+              13.0,
+              12.5
+            ],
+            [
+              13.0,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0055",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Sava",
+        "year": 2022,
+        "season_onset_date": 182,
+        "season_onset_date_str": "2022-07-01",
+        "false_start": false,
+        "dry_spell_days": 22,
+        "heat_days": 12,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 587.9,
+        "mean_tmax_c": 31.8,
+        "mean_tmin_c": 22.6,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.5,
+              12.0
+            ],
+            [
+              14.0,
+              12.0
+            ],
+            [
+              14.0,
+              12.5
+            ],
+            [
+              13.5,
+              12.5
+            ],
+            [
+              13.5,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0056",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Sava",
+        "year": 2022,
+        "season_onset_date": 175,
+        "season_onset_date_str": "2022-06-24",
+        "false_start": false,
+        "dry_spell_days": 15,
+        "heat_days": 19,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 615.8,
+        "mean_tmax_c": 32.5,
+        "mean_tmin_c": 23.0,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.0,
+              12.0
+            ],
+            [
+              14.5,
+              12.0
+            ],
+            [
+              14.5,
+              12.5
+            ],
+            [
+              14.0,
+              12.5
+            ],
+            [
+              14.0,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0057",
+        "region": "Extreme-Nord",
+        "department": "Mayo-Sava",
+        "year": 2022,
+        "season_onset_date": 175,
+        "season_onset_date_str": "2022-06-24",
+        "false_start": false,
+        "dry_spell_days": 17,
+        "heat_days": 19,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 657.0,
+        "mean_tmax_c": 32.6,
+        "mean_tmin_c": 23.2,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5,
+              12.0
+            ],
+            [
+              15.0,
+              12.0
+            ],
+            [
+              15.0,
+              12.5
+            ],
+            [
+              14.5,
+              12.5
+            ],
+            [
+              14.5,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0058",
+        "region": "Extreme-Nord",
+        "department": "Logone-et-Chari",
+        "year": 2022,
+        "season_onset_date": 175,
+        "season_onset_date_str": "2022-06-24",
+        "false_start": false,
+        "dry_spell_days": 15,
+        "heat_days": 17,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 702.1,
+        "mean_tmax_c": 32.2,
+        "mean_tmin_c": 23.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.0,
+              12.0
+            ],
+            [
+              15.5,
+              12.0
+            ],
+            [
+              15.5,
+              12.5
+            ],
+            [
+              15.0,
+              12.5
+            ],
+            [
+              15.0,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0059",
+        "region": "Extreme-Nord",
+        "department": "Logone-et-Chari",
+        "year": 2022,
+        "season_onset_date": 175,
+        "season_onset_date_str": "2022-06-24",
+        "false_start": false,
+        "dry_spell_days": 15,
+        "heat_days": 17,
+        "risk_score": 50.0,
+        "risk_class": "MEDIUM",
+        "sowing_advice": "Risque modéré : conditions acceptables mais incertaines. Surveiller les prévisions locales avant de semer.",
+        "seasonal_rain_mm": 702.1,
+        "mean_tmax_c": 32.2,
+        "mean_tmin_c": 23.3,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.5,
+              12.0
+            ],
+            [
+              16.0,
+              12.0
+            ],
+            [
+              16.0,
+              12.5
+            ],
+            [
+              15.5,
+              12.5
+            ],
+            [
+              15.5,
+              12.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "cell_id": "R0060",
+        "region": "Extreme-Nord",
+        "department": "Logone-et-Chari",
+        "year": 2022,
+        "season_onset_date": 184,
+        "season_onset_date_str": "2022-07-03",
+        "false_start": true,
+        "dry_spell_days": 26,
+        "heat_days": 8,
+        "risk_score": 87.0,
+        "risk_class": "HIGH",
+        "sowing_advice": "Faux départ détecté : les premières pluies ont été suivies d'une longue période sèche. Conditions suggèrent d'attendre des pluies plus stables avant de semer.",
+        "seasonal_rain_mm": 682.3,
+        "mean_tmax_c": 31.4,
+        "mean_tmin_c": 22.5,
+        "data_source": "NASA POWER v9 (PRECTOTCORR, T2M_MAX, T2M_MIN)",
+        "data_period": "2022",
+        "spatial_resolution": "0.5 deg (~55 km)",
+        "confidence": "real"
+      }
+    }
+  ]
+}
